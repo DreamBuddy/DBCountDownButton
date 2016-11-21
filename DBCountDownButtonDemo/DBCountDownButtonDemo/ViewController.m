@@ -27,6 +27,8 @@
     
     [button setTitle:@"点击获取验证码" forState:UIControlStateNormal];
     
+    button.autoControlButtonEnable = YES;
+    
     [button countDownChanging:^NSString *(DBCountDownButton *countDownButton, NSUInteger second) {
         return [NSString stringWithFormat:@"剩余%lu秒可以重新获取",(unsigned long)second];
     }];
