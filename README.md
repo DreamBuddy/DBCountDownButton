@@ -13,3 +13,5 @@
 * 2.GCD使用起来真的是有点繁琐，这里没有多做研究，应该是可以的 但是相对来说比较繁琐
 
 于是乎，想到了 ReactiveCocoa ,RAC处理这些问题真的是杀鸡焉用宰牛刀的赶脚啊，很轻松，而且 不会 retain 任何类，ViewController dealloc 以后 也会跟随dealloc 停止倒计时。
+
+简书地址：http://www.jianshu.com/p/9aa1eee5e310
