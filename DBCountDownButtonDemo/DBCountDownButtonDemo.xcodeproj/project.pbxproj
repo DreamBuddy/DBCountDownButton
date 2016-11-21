@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B40031D474EF21FEE7FAAF5 /* libPods-DBCountDownButtonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FAACFCC6B7BC5DD61E4936 /* libPods-DBCountDownButtonDemo.a */; };
+		6E9A7FCA1DE2AFBC00DFF99A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9A7FC91DE2AFBC00DFF99A /* main.m */; };
+		6E9A7FCD1DE2AFBC00DFF99A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9A7FCC1DE2AFBC00DFF99A /* AppDelegate.m */; };
+		6E9A7FD01DE2AFBC00DFF99A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9A7FCF1DE2AFBC00DFF99A /* ViewController.m */; };
+		6E9A7FD31DE2AFBC00DFF99A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9A7FD11DE2AFBC00DFF99A /* Main.storyboard */; };
+		6E9A7FD51DE2AFBC00DFF99A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E9A7FD41DE2AFBC00DFF99A /* Assets.xcassets */; };
+		6E9A7FD81DE2AFBC00DFF99A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9A7FD61DE2AFBC00DFF99A /* LaunchScreen.storyboard */; };
+		6E9A7FE21DE2B4B900DFF99A /* DBCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9A7FE11DE2B4B900DFF99A /* DBCountDownButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		079E3722D55DEBBAB92C40BD /* Pods-DBCountDownButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBCountDownButtonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DBCountDownButtonDemo/Pods-DBCountDownButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		28FAACFCC6B7BC5DD61E4936 /* libPods-DBCountDownButtonDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DBCountDownButtonDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9A7FC51DE2AFBC00DFF99A /* DBCountDownButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBCountDownButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9A7FC91DE2AFBC00DFF99A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E9A7FCB1DE2AFBC00DFF99A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E9A7FCC1DE2AFBC00DFF99A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E9A7FCE1DE2AFBC00DFF99A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E9A7FCF1DE2AFBC00DFF99A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E9A7FD21DE2AFBC00DFF99A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E9A7FD41DE2AFBC00DFF99A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E9A7FD71DE2AFBC00DFF99A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E9A7FD91DE2AFBC00DFF99A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E9A7FE01DE2B4B900DFF99A /* DBCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBCountDownButton.h; sourceTree = "<group>"; };
+		6E9A7FE11DE2B4B900DFF99A /* DBCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBCountDownButton.m; sourceTree = "<group>"; };
+		D6E215472E73CD3E1E6B00BF /* Pods-DBCountDownButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBCountDownButtonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DBCountDownButtonDemo/Pods-DBCountDownButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E9A7FC21DE2AFBC00DFF99A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B40031D474EF21FEE7FAAF5 /* libPods-DBCountDownButtonDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26EEB91357C7FB7E170B48A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28FAACFCC6B7BC5DD61E4936 /* libPods-DBCountDownButtonDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47F675BF97AF63D72F7F27D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				079E3722D55DEBBAB92C40BD /* Pods-DBCountDownButtonDemo.debug.xcconfig */,
+				D6E215472E73CD3E1E6B00BF /* Pods-DBCountDownButtonDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E9A7FBC1DE2AFBC00DFF99A = {
+			isa = PBXGroup;
+			children = (
+				6E9A7FC71DE2AFBC00DFF99A /* DBCountDownButtonDemo */,
+				6E9A7FC61DE2AFBC00DFF99A /* Products */,
+				47F675BF97AF63D72F7F27D9 /* Pods */,
+				26EEB91357C7FB7E170B48A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E9A7FC61DE2AFBC00DFF99A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E9A7FC51DE2AFBC00DFF99A /* DBCountDownButtonDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E9A7FC71DE2AFBC00DFF99A /* DBCountDownButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6E9A7FDF1DE2B4B900DFF99A /* DBCountDownButton */,
+				6E9A7FCB1DE2AFBC00DFF99A /* AppDelegate.h */,
+				6E9A7FCC1DE2AFBC00DFF99A /* AppDelegate.m */,
+				6E9A7FCE1DE2AFBC00DFF99A /* ViewController.h */,
+				6E9A7FCF1DE2AFBC00DFF99A /* ViewController.m */,
+				6E9A7FD11DE2AFBC00DFF99A /* Main.storyboard */,
+				6E9A7FD41DE2AFBC00DFF99A /* Assets.xcassets */,
+				6E9A7FD61DE2AFBC00DFF99A /* LaunchScreen.storyboard */,
+				6E9A7FD91DE2AFBC00DFF99A /* Info.plist */,
+				6E9A7FC81DE2AFBC00DFF99A /* Supporting Files */,
+			);
+			path = DBCountDownButtonDemo;
+			sourceTree = "<group>";
+		};
+		6E9A7FC81DE2AFBC00DFF99A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E9A7FC91DE2AFBC00DFF99A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E9A7FDF1DE2B4B900DFF99A /* DBCountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				6E9A7FE01DE2B4B900DFF99A /* DBCountDownButton.h */,
+				6E9A7FE11DE2B4B900DFF99A /* DBCountDownButton.m */,
+			);
+			name = DBCountDownButton;
+			path = ../../DBCountDownButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E9A7FC41DE2AFBC00DFF99A /* DBCountDownButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9A7FDC1DE2AFBC00DFF99A /* Build configuration list for PBXNativeTarget "DBCountDownButtonDemo" */;
+			buildPhases = (
+				58BE1B92F236E0C5538BE5A4 /* [CP] Check Pods Manifest.lock */,
+				6E9A7FC11DE2AFBC00DFF99A /* Sources */,
+				6E9A7FC21DE2AFBC00DFF99A /* Frameworks */,
+				6E9A7FC31DE2AFBC00DFF99A /* Resources */,
+				FF77A109ED800BDF1CF8F910 /* [CP] Embed Pods Frameworks */,
+				139FB5D01B2F87157DBC5DB3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DBCountDownButtonDemo;
+			productName = DBCountDownButtonDemo;
+			productReference = 6E9A7FC51DE2AFBC00DFF99A /* DBCountDownButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E9A7FBD1DE2AFBC00DFF99A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Xu Mengtong";
+				TargetAttributes = {
+					6E9A7FC41DE2AFBC00DFF99A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6E9A7FC01DE2AFBC00DFF99A /* Build configuration list for PBXProject "DBCountDownButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E9A7FBC1DE2AFBC00DFF99A;
+			productRefGroup = 6E9A7FC61DE2AFBC00DFF99A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E9A7FC41DE2AFBC00DFF99A /* DBCountDownButtonDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E9A7FC31DE2AFBC00DFF99A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9A7FD81DE2AFBC00DFF99A /* LaunchScreen.storyboard in Resources */,
+				6E9A7FD51DE2AFBC00DFF99A /* Assets.xcassets in Resources */,
+				6E9A7FD31DE2AFBC00DFF99A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		139FB5D01B2F87157DBC5DB3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DBCountDownButtonDemo/Pods-DBCountDownButtonDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58BE1B92F236E0C5538BE5A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF77A109ED800BDF1CF8F910 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DBCountDownButtonDemo/Pods-DBCountDownButtonDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E9A7FC11DE2AFBC00DFF99A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9A7FD01DE2AFBC00DFF99A /* ViewController.m in Sources */,
+				6E9A7FE21DE2B4B900DFF99A /* DBCountDownButton.m in Sources */,
+				6E9A7FCD1DE2AFBC00DFF99A /* AppDelegate.m in Sources */,
+				6E9A7FCA1DE2AFBC00DFF99A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E9A7FD11DE2AFBC00DFF99A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E9A7FD21DE2AFBC00DFF99A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E9A7FD61DE2AFBC00DFF99A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E9A7FD71DE2AFBC00DFF99A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E9A7FDA1DE2AFBC00DFF99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E9A7FDB1DE2AFBC00DFF99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E9A7FDD1DE2AFBC00DFF99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 079E3722D55DEBBAB92C40BD /* Pods-DBCountDownButtonDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DBCountDownButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.xu.DBCountDownButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6E9A7FDE1DE2AFBC00DFF99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6E215472E73CD3E1E6B00BF /* Pods-DBCountDownButtonDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DBCountDownButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.xu.DBCountDownButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E9A7FC01DE2AFBC00DFF99A /* Build configuration list for PBXProject "DBCountDownButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9A7FDA1DE2AFBC00DFF99A /* Debug */,
+				6E9A7FDB1DE2AFBC00DFF99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9A7FDC1DE2AFBC00DFF99A /* Build configuration list for PBXNativeTarget "DBCountDownButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9A7FDD1DE2AFBC00DFF99A /* Debug */,
+				6E9A7FDE1DE2AFBC00DFF99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E9A7FBD1DE2AFBC00DFF99A /* Project object */;
+}
