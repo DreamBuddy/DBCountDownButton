@@ -7,7 +7,7 @@
 //
 
 #import "DBCountDownButton.h"
-#import <ReactiveObjC.h>
+#import "ReactiveObjC.h"
 
 @interface DBCountDownButton ()
 
