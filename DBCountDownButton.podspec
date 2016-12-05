@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "DBCountDownButton"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "一个简单易用无风险的验证码倒计时控件"
 
   s.homepage     = "https://github.com/DreamBuddy/DBCountDownButton.git"
